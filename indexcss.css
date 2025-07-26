@@ -149,8 +149,8 @@ margin-right: 5px;
   padding-top: 49px;
   padding-left: 150px;
   padding-right: 150px;
-}
-
+} 
+   
 .plants-grid {
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -499,3 +499,506 @@ margin-right: 5px;
     align-items:center;
     padding-bottom: 212px;
  }
+
+
+
+ /* for mobile users  */
+
+@media (max-width: 768px) {
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .navbar img.logo-image {
+    margin-bottom: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar .nav-item {
+    margin-right: 0;
+  }
+
+  /* Hero Section */
+  .first-flower {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .text-content h1 {
+    font-size: 32px;
+  }
+
+  .text-content p {
+    font-size: 16px;
+  }
+
+  .image-content {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* Our Plants Section */
+  .plants {
+    padding: 40px 20px;
+  }
+
+  .plants h1 {
+    font-size: 32px;
+  }
+
+  .plants p {
+    font-size: 16px;
+  }
+
+  .plants-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .plant-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Offer Section */
+  .offer-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .offer-card {
+    height: 200px;
+  }
+
+  .offer-card.large {
+    height: 250px;
+  }
+
+  /* Flower Lover Section */
+  .flower-lover-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .text-container h1 {
+    font-size: 32px;
+  }
+
+  .text-container ul {
+    font-size: 16px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-section {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .big-img-font {
+    font-size: 24px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  /* Footer Section */
+  .allaflextwo {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .allaflexthree,
+  .allaflexfour,
+  .allaflexfive,
+  .allaflexsix {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .allaflexsix {
+    justify-content: center;
+  }
+
+
+
+
+/* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  /* Hero Section */
+  .first-flower {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text-content h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .text-content p {
+    font-size: 16px;
+  }
+
+  .image-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Our Plants */
+  .plants {
+    padding: 30px 20px;
+  }
+
+  .plants h1 {
+    font-size: 28px;
+  }
+
+  .plants p {
+    font-size: 16px;
+  }
+
+  .plants-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .plant-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Flower Lover Section */
+  .flower-lover-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .text-container h1 {
+    font-size: 28px;
+  }
+
+  .text-container ul {
+    font-size: 16px;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  /* Latest Deals Section */
+  .latest-deal-scetion {
+    padding: 20px;
+  }
+
+  .font-size-latest {
+    font-size: 28px;
+  }
+
+  .small-font {
+    font-size: 16px;
+  }
+
+  /* Offer Section (3 images) */
+  .offer-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .offer-card {
+    height: 180px;
+  }
+
+  .offer-card.large {
+    height: 200px;
+  }
+
+  .offer-content h2,
+  .offer-content h3 {
+    font-size: 18px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-section {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .big-img-font {
+    font-size: 24px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  /* Footer */
+  .allaflextwo {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .allaflexthree,
+  .allaflexfour,
+  .allaflexfive,
+  .allaflexsix {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .allaflexsix {
+    justify-content: center;
+  }
+
+
+
+
+/* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  /* Hero Section */
+  .first-flower {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text-content h1 {
+    font-size: 28px;
+  }
+
+  .text-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .image-content {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* Our Plants */
+  .plants {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .plants-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .plant-card {
+    width: 100%;
+  }
+
+  .plant-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Flower Lover Section */
+  .flower-lover-section {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-container h1 {
+    font-size: 28px;
+  }
+
+  .text-container ul {
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  /* Latest Deals */
+  .latest-deal-scetion {
+    padding: 20px;
+  }
+
+  .font-size-latest {
+    font-size: 28px;
+  }
+
+  .small-font {
+    font-size: 16px;
+  }
+
+  /* Offer Section */
+  .offer-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .offer-card {
+    height: 200px;
+  }
+
+  .offer-card.large {
+    height: 220px;
+  }
+
+  .offer-content h2,
+  .offer-content h3 {
+    font-size: 18px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-section {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .big-img-font {
+    font-size: 24px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+  }
+
+  /* Footer */
+  .allaflextwo {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .allaflexthree,
+  .allaflexfour,
+  .allaflexfive,
+  .allaflexsix {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .allaflexsix {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .allaflexsix img {
+    width: 32px;
+    height: 32px;
+  }
+
+
+
+
+
+
+}
